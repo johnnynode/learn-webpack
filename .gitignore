@@ -1,0 +1,6 @@
+.DS_store
+node_modules/
+demo1/
+.tmp
+.idea
+*.log

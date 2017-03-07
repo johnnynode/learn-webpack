@@ -1,0 +1,17 @@
+{
+    "name": "day01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "develop": "webpack-dev-server  --config webpack.develop.config.js --devtool eval --progress --colors --hot --content-base src",
+        "publish": "webpack --config webpack.develop.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "webpack": "^1.14.0",
+        "webpack-dev-server": "^1.16.2"
+    }
+}
